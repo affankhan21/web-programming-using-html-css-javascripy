@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function addNum()
+        {
+            a=parseInt(prompt("ENTER FIRST NUMBER :"))
+            b=parseInt(prompt("ENTER SECOND NUMBER :"))
+            c=a+b
+            alert("Addition is "+c)
+        }
+        function subNum()
+        {
+            a=parseInt(prompt("ENTER FIRST NUMBER :"))
+            b=parseInt(prompt("ENTER SECOND NUMBER :"))
+            c=a-b
+            alert("Subtraction is "+c)
+        }
+        function mulNum()
+        {
+            a=parseInt(prompt("ENTER FIRST NUMBER :"))
+            b=parseInt(prompt("ENTER SECOND NUMBER :"))
+            c=a*b
+            alert("Multiplication is "+c)
+        }
+        
+        function diviNum()
+        {
+            a=parseInt(prompt("ENTER FIRST NUMBER :"))
+            b=parseInt(prompt("ENTER SECOND NUMBER :"))
+            c=a/b
+            alert("Division is "+c)
+        }
+        
+
+
+    </script>
+    <style>
+        div{
+            border:5px solid black;
+            /* background-color: aqua; */
+            margin:5px dashed yellow;
+            height:600px;
+            width:1000px;
+            background-image: url("desola-lanre-ologun-zYgV-NGZtlA-unsplash.jpg") ;
+            background-size: 1000px;
+            background-repeat: no-repeat;
+
+        }
+        #b1{
+            color:brown;
+            
+            background-color:gold;
+        }
+        #b2{
+            color:brown;
+            
+            background-color:chocolate;
+        }
+        #b3{
+            color:brown;
+            
+            background-color:palevioletred;
+        }
+        #b4{
+            color:brown;
+            
+            background-color:palegreen;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <button  id = "b1" onclick="addNum()">CLICK ME TO ADD</button><br><br>
+    <button id="b2" onclick="subNum()">CLICK ME TO SUB</button><br><br>
+    <button id="b3"  onclick="mulNum()">CLICK ME TO  MULTIPLY</button><br><br>
+    <button id="b4" onclick="diviNum()">CLICK ME TO DIVIDE</button><br><br>
+
+</div>
+</body>
+</html>
