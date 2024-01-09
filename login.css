@@ -1,0 +1,16 @@
+div{
+    border:4px solid black;
+    margin:50px;
+    padding:50px;
+    width:200px;
+    height:300px;
+    background-color:#E6B9DE;
+    background-image: url("desola-lanre-ologun-zYgV-NGZtlA-unsplash.jpg");
+    background-repeat:repeat-x;
+    background-size: 100px;
+    background-position: bottom;
+    border-radius: 40px;
+   
+
+
+}
